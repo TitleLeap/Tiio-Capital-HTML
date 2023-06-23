@@ -14,23 +14,34 @@
   flex-direction: row;
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   justify-content: center;
+  text-decoration: none;
   background-color: #000000;
 }
 .btn-apply-now-btn-apply-now:hover {
   background-color: rgba(0, 0, 0, 0.75);
 }
 .btn-apply-now-caption {
+  font-size: 2em;
   font-style: normal;
   font-family: Poppins;
   font-weight: 500;
+}
+.btn-apply-now-root-class-name {
+  position: 0px;
 }
 @media(max-width: 991px) {
   .btn-apply-now-btn-apply-now {
     flex: 1;
   }
+  .btn-apply-now-root-class-name {
+    background-color: rgba(0, 0, 0, 0.95);
+  }
 }
 @media(max-width: 479px) {
   .btn-apply-now-btn-apply-now {
     width: 100%;
+  }
+  .btn-apply-now-caption {
+    font-size: 1.5em;
   }
 }
